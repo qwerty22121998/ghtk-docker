@@ -1,0 +1,43 @@
+version: "3"
+services:
+    nginx:
+        depends_on:
+            - php
+            - dockerhost
+            - redis.ghtk.vn
+        image: nginx:alpine
+        restart: always
+        volumes:
+            - ${CASH}
+            - ${ECOM}
+            - ${ASSET}
+            - ${NGINX}
+            - ${INVOICE}
+            - ./tmp/:/tmp/
+        ports:
+            - 80:80
+    php:
+        build: ./php
+        restart: always
+        env_file:
+            - ./database/db.env
+        volumes:
+            - ${CASH}
+            - ${ECOM}
+            - ${ASSET}
+            - ${XDEBUG}
+            - ${INVOICE}
+            - ${GEARMAN}
+            - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf.default
+        expose:
+            - 9000
+    redis.ghtk.vn:
+        image: redis:alpine
+        restart: always
+        expose:
+            - 6379
+        command: redis-server --appendonly yes
+    dockerhost:
+        image: qoomon/docker-host
+        cap_add: ["NET_ADMIN", "NET_RAW"]
+        restart: always
