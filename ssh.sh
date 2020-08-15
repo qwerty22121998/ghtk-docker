@@ -1,1 +1,1 @@
-docker exec -it docker_php_1 zsh
+docker exec -it ghtk_php zsh

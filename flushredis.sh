@@ -1,1 +1,1 @@
-docker exec -it docker_redis.ghtk.vn_1 redis-cli flushAll
+docker exec -it redis.ghtk.vn redis-cli flushAll

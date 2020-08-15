@@ -1,6 +1,7 @@
 version: "3"
 services:
     nginx:
+        container_name: ghtk_nginx
         depends_on:
             - php
             - dockerhost
@@ -17,6 +18,7 @@ services:
         ports:
             - 80:80
     php:
+        container_name: ghtk_php
         build: ./php
         restart: always
         env_file:
@@ -32,12 +34,14 @@ services:
         expose:
             - 9000
     redis.ghtk.vn:
+        container_name: redis.ghtk.vn
         image: redis:alpine
         restart: always
         expose:
             - 6379
         command: redis-server --appendonly yes
     dockerhost:
+        container_name: ghtk_host
         image: qoomon/docker-host
         cap_add: ["NET_ADMIN", "NET_RAW"]
         restart: always
