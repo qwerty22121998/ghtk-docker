@@ -77,24 +77,22 @@ RUN apt-get update -qq
 
 RUN apt-get install -y zsh
 
-RUN sh -c "$(wget -O- https://raw.githubusercontent.com/deluan/zsh-in-docker/master/zsh-in-docker.sh)" \
-  -p https://github.com/zsh-users/zsh-autosuggestions \
-  -p https://github.com/zsh-users/zsh-completions
+RUN sh -c "$(curl https://raw.githubusercontent.com/deluan/zsh-in-docker/master/zsh-in-docker.sh)" -- \
+  -t ys \
+  -p git \
+  -p https://github.com/zsh-users/zsh-syntax-highlighting \
+  -p https://github.com/zsh-users/zsh-history-substring-search 
 
 FROM oh-my-zsh as other-dependency
 
 #install your lib here
 
-RUN cd /tmp \
-  && git clone https://github.com/wolfcw/libfaketime.git \
-  && cd libfaketime/src \
-  && make -j$(nproc) \
-  && make install \
-  && rm -r /tmp/libfaketime 
+RUN apt-get update -qq
+
+RUN apt-get install -y -q vim 
 
 
 FROM other-dependency as entrypoint 
-
 
 COPY ./start.sh start.sh
 
