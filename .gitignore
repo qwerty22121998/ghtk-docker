@@ -1,3 +1,2 @@
 database/db.env
-gearmanworker/*.ini
 tmp/*
