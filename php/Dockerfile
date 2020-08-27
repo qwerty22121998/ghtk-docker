@@ -32,7 +32,7 @@ RUN install-php-extensions \
   pdo_mysql \
   zip
 
-RUN docker-php-ext-install fileinfo 
+RUN docker-php-ext-install fileinfo pcntl
 
 # RUN \
 #   curl 'http://pecl.php.net/get/redis-3.1.5.tgz' -o /tmp/redis-3.1.5.tgz  \

@@ -30,6 +30,7 @@ services:
             - ${XDEBUG}
             - ${INVOICE}
             - ${GEARMAN}
+            - ./php/ecom.conf.ini:/usr/local/etc/php/conf.d/ecom.conf.ini
             - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf
         expose:
             - 9000
