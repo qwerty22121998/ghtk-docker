@@ -79,9 +79,10 @@ RUN apt-get install -y zsh
 
 RUN sh -c "$(curl https://raw.githubusercontent.com/deluan/zsh-in-docker/master/zsh-in-docker.sh)" -- \
   -t ys \
-  -p git \
   -p https://github.com/zsh-users/zsh-syntax-highlighting \
   -p https://github.com/zsh-users/zsh-history-substring-search 
+
+RUN apt-get remove -y git 
 
 FROM oh-my-zsh as other-dependency
 
