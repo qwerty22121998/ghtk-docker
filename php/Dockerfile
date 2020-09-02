@@ -92,6 +92,9 @@ RUN apt-get update -qq
 
 RUN apt-get install -y -q vim 
 
+RUN apt install -y librdkafka-dev
+
+RUN pecl install rdkafka && docker-php-ext-enable rdkafka
 
 FROM other-dependency as entrypoint 
 
