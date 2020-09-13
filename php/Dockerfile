@@ -84,6 +84,8 @@ RUN sh -c "$(curl https://raw.githubusercontent.com/deluan/zsh-in-docker/master/
 
 RUN apt-get remove -y git 
 
+RUN echo 'run () {php -f /var/www/html/$1/app/Console/cake.php ${@:2}}' >> $HOME/.zshrc
+
 FROM oh-my-zsh as other-dependency
 
 #install your lib here
