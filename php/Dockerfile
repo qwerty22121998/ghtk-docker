@@ -92,7 +92,8 @@ FROM oh-my-zsh as other-dependency
 
 RUN apt-get update -qq
 
-RUN apt-get install -y -q vim 
+RUN apt-get install -y -q vim tmux
+
 
 
 FROM other-dependency as entrypoint 
