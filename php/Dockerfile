@@ -94,6 +94,8 @@ RUN apt-get update -qq
 
 RUN apt-get install -y -q vim tmux
 
+RUN echo "set-option -g default-shell $SHELL" > ~/.tmux.conf
+
 
 
 FROM other-dependency as entrypoint 
