@@ -14,6 +14,7 @@ services:
             - ${ASSET}
             - ${NGINX}
             - ${INVOICE}
+            - ${ERP}
             - ./tmp/:/tmp/
         ports:
             - 80:80
@@ -29,6 +30,7 @@ services:
             - ${ASSET}
             - ${XDEBUG}
             - ${INVOICE}
+            - ${ERP}
             - ${GEARMAN}
             - ./php/ecom.conf.ini:/usr/local/etc/php/conf.d/ecom.conf.ini
             - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf
