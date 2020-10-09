@@ -36,6 +36,15 @@ services:
             - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf
         expose:
             - 9000
+    elastic:
+        image: elasticsearch:2.3.5
+        container_name: ghtk_es
+        environment:
+            - discovery.type=single-node
+        volumes:
+            - ./tmp/es_data:/usr/share/elasticsearch/data
+        expose:
+            - 9200
     redis.ghtk.vn:
         container_name: redis.ghtk.vn
         image: redis:alpine

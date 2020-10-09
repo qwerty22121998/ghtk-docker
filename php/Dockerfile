@@ -84,13 +84,18 @@ RUN sh -c "$(curl https://raw.githubusercontent.com/deluan/zsh-in-docker/master/
 
 RUN apt-get remove -y git 
 
+RUN echo 'run () {php -f /var/www/html/$1/app/Console/cake.php ${@:2}}' >> $HOME/.zshrc
+
 FROM oh-my-zsh as other-dependency
 
 #install your lib here
 
 RUN apt-get update -qq
 
-RUN apt-get install -y -q vim 
+RUN apt-get install -y -q vim tmux
+
+RUN echo "set-option -g default-shell $SHELL" > ~/.tmux.conf
+
 
 
 FROM other-dependency as entrypoint 
