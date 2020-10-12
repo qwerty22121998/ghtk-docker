@@ -1,5 +1,14 @@
 version: "3"
 services:
+    mysql:
+        container_name: mysql
+        image: mysql
+        command: --default-authentication-plugin=mysql_native_password
+        restart: always
+        environment:
+          MYSQL_ROOT_PASSWORD: example
+        ports: 
+            - 3306:3306
     nginx:
         container_name: ghtk_nginx
         depends_on:
@@ -34,6 +43,7 @@ services:
             - ${GEARMAN}
             - ./php/ecom.conf.ini:/usr/local/etc/php/conf.d/ecom.conf.ini
             - ./php/www.conf:/usr/local/etc/php-fpm.d/www.conf
+            - ./log/:/var/log/
         expose:
             - 9000
     elastic:
