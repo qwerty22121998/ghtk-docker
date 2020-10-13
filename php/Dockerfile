@@ -90,11 +90,15 @@ FROM oh-my-zsh as other-dependency
 
 #install your lib here
 
+
 RUN apt-get update -qq
 
 RUN apt-get install -y -q vim tmux
 
-RUN echo "set-option -g default-shell $SHELL" > ~/.tmux.conf
+RUN apt-get install -y -q libgmp-dev && docker-php-ext-install gmp
+
+
+RUN echo "set-option -g default-shell zsh" > ~/.tmux.conf
 
 
 
