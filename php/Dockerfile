@@ -93,7 +93,9 @@ FROM oh-my-zsh as other-dependency
 
 RUN apt-get update -qq
 
-RUN apt-get install -y -q vim tmux
+RUN mkdir -p /usr/share/man/man1
+
+RUN apt-get install -y -q vim tmux default-jre
 
 RUN apt-get install -y -q libgmp-dev && docker-php-ext-install gmp
 
