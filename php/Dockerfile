@@ -99,6 +99,8 @@ RUN apt-get install -y -q vim tmux default-jre
 
 RUN apt-get install -y -q libgmp-dev && docker-php-ext-install gmp
 
+RUN install-php-extensions yaml
+
 
 RUN echo "set-option -g default-shell zsh" > ~/.tmux.conf
 
