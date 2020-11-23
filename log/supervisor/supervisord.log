@@ -235,3 +235,1017 @@
 2020-10-23 02:35:37,274 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2020-10-23 02:35:37,274 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
 2020-10-23 02:35:37,274 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:20,419 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-10-26 02:18:20,428 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-10-26 02:18:20,825 INFO RPC interface 'supervisor' initialized
+2020-10-26 02:18:20,825 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-26 02:18:20,827 INFO daemonizing the supervisord process
+2020-10-26 02:18:20,837 INFO supervisord started with pid 13
+2020-10-26 02:18:21,842 INFO spawned: 'sgw-gearman-worker-26' with pid 28
+2020-10-26 02:18:21,844 INFO spawned: 'sgw-gearman-worker-27' with pid 29
+2020-10-26 02:18:21,845 INFO spawned: 'sgw-gearman-worker-24' with pid 30
+2020-10-26 02:18:21,846 INFO spawned: 'sgw-gearman-worker-25' with pid 31
+2020-10-26 02:18:21,846 INFO spawned: 'sgw-gearman-worker-22' with pid 32
+2020-10-26 02:18:21,847 INFO spawned: 'sgw-gearman-worker-23' with pid 33
+2020-10-26 02:18:21,848 INFO spawned: 'sgw-gearman-worker-20' with pid 34
+2020-10-26 02:18:21,849 INFO spawned: 'sgw-gearman-worker-21' with pid 35
+2020-10-26 02:18:21,850 INFO spawned: 'sgw-gearman-worker-28' with pid 36
+2020-10-26 02:18:21,850 INFO spawned: 'sgw-gearman-worker-29' with pid 37
+2020-10-26 02:18:21,851 INFO spawned: 'sgw-gearman-worker-7' with pid 38
+2020-10-26 02:18:21,852 INFO spawned: 'sgw-gearman-worker-6' with pid 39
+2020-10-26 02:18:21,853 INFO spawned: 'sgw-gearman-worker-5' with pid 40
+2020-10-26 02:18:21,853 INFO spawned: 'sgw-gearman-worker-4' with pid 41
+2020-10-26 02:18:21,854 INFO spawned: 'sgw-gearman-worker-3' with pid 42
+2020-10-26 02:18:21,855 INFO spawned: 'sgw-gearman-worker-2' with pid 43
+2020-10-26 02:18:21,856 INFO spawned: 'sgw-gearman-worker-1' with pid 44
+2020-10-26 02:18:21,857 INFO spawned: 'sgw-gearman-worker-0' with pid 45
+2020-10-26 02:18:21,858 INFO spawned: 'sgw-gearman-worker-9' with pid 46
+2020-10-26 02:18:21,858 INFO spawned: 'sgw-gearman-worker-8' with pid 47
+2020-10-26 02:18:21,860 INFO spawned: 'sgw-gearman-worker-13' with pid 48
+2020-10-26 02:18:21,861 INFO spawned: 'sgw-gearman-worker-12' with pid 49
+2020-10-26 02:18:21,862 INFO spawned: 'sgw-gearman-worker-11' with pid 50
+2020-10-26 02:18:21,862 INFO spawned: 'sgw-gearman-worker-10' with pid 51
+2020-10-26 02:18:21,863 INFO spawned: 'sgw-gearman-worker-17' with pid 52
+2020-10-26 02:18:21,864 INFO spawned: 'sgw-gearman-worker-16' with pid 53
+2020-10-26 02:18:21,865 INFO spawned: 'sgw-gearman-worker-15' with pid 54
+2020-10-26 02:18:21,865 INFO spawned: 'sgw-gearman-worker-14' with pid 55
+2020-10-26 02:18:21,866 INFO spawned: 'sgw-gearman-worker-19' with pid 56
+2020-10-26 02:18:21,867 INFO spawned: 'sgw-gearman-worker-18' with pid 57
+2020-10-26 02:18:21,868 INFO spawned: 'sgw-gearman-worker-30' with pid 58
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-26 02:18:23,522 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:08,898 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-10-28 02:06:08,901 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-10-28 02:06:09,274 INFO RPC interface 'supervisor' initialized
+2020-10-28 02:06:09,274 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-28 02:06:09,274 INFO daemonizing the supervisord process
+2020-10-28 02:06:09,275 INFO supervisord started with pid 17
+2020-10-28 02:06:10,277 INFO spawned: 'sgw-gearman-worker-26' with pid 32
+2020-10-28 02:06:10,279 INFO spawned: 'sgw-gearman-worker-27' with pid 33
+2020-10-28 02:06:10,281 INFO spawned: 'sgw-gearman-worker-24' with pid 34
+2020-10-28 02:06:10,283 INFO spawned: 'sgw-gearman-worker-25' with pid 35
+2020-10-28 02:06:10,284 INFO spawned: 'sgw-gearman-worker-22' with pid 36
+2020-10-28 02:06:10,286 INFO spawned: 'sgw-gearman-worker-23' with pid 37
+2020-10-28 02:06:10,287 INFO spawned: 'sgw-gearman-worker-20' with pid 38
+2020-10-28 02:06:10,288 INFO spawned: 'sgw-gearman-worker-21' with pid 39
+2020-10-28 02:06:10,289 INFO spawned: 'sgw-gearman-worker-28' with pid 40
+2020-10-28 02:06:10,291 INFO spawned: 'sgw-gearman-worker-29' with pid 41
+2020-10-28 02:06:10,292 INFO spawned: 'sgw-gearman-worker-7' with pid 42
+2020-10-28 02:06:10,293 INFO spawned: 'sgw-gearman-worker-6' with pid 43
+2020-10-28 02:06:10,307 INFO spawned: 'sgw-gearman-worker-5' with pid 44
+2020-10-28 02:06:10,308 INFO spawned: 'sgw-gearman-worker-4' with pid 45
+2020-10-28 02:06:10,309 INFO spawned: 'sgw-gearman-worker-3' with pid 46
+2020-10-28 02:06:10,311 INFO spawned: 'sgw-gearman-worker-2' with pid 47
+2020-10-28 02:06:10,313 INFO spawned: 'sgw-gearman-worker-1' with pid 48
+2020-10-28 02:06:10,316 INFO spawned: 'sgw-gearman-worker-0' with pid 49
+2020-10-28 02:06:10,317 INFO spawned: 'sgw-gearman-worker-9' with pid 50
+2020-10-28 02:06:10,320 INFO spawned: 'sgw-gearman-worker-8' with pid 51
+2020-10-28 02:06:10,321 INFO spawned: 'sgw-gearman-worker-13' with pid 52
+2020-10-28 02:06:10,322 INFO spawned: 'sgw-gearman-worker-12' with pid 53
+2020-10-28 02:06:10,323 INFO spawned: 'sgw-gearman-worker-11' with pid 54
+2020-10-28 02:06:10,336 INFO spawned: 'sgw-gearman-worker-10' with pid 55
+2020-10-28 02:06:10,338 INFO spawned: 'sgw-gearman-worker-17' with pid 56
+2020-10-28 02:06:10,339 INFO spawned: 'sgw-gearman-worker-16' with pid 57
+2020-10-28 02:06:10,340 INFO spawned: 'sgw-gearman-worker-15' with pid 58
+2020-10-28 02:06:10,341 INFO spawned: 'sgw-gearman-worker-14' with pid 59
+2020-10-28 02:06:10,342 INFO spawned: 'sgw-gearman-worker-19' with pid 60
+2020-10-28 02:06:10,344 INFO spawned: 'sgw-gearman-worker-18' with pid 61
+2020-10-28 02:06:10,345 INFO spawned: 'sgw-gearman-worker-30' with pid 62
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,132 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,133 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,133 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 02:06:12,133 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:33:26,119 WARN received SIGTERM indicating exit request
+2020-10-28 13:33:26,137 INFO waiting for sgw-gearman-worker-26, sgw-gearman-worker-27, sgw-gearman-worker-24, sgw-gearman-worker-25, sgw-gearman-worker-22, sgw-gearman-worker-23, sgw-gearman-worker-20, sgw-gearman-worker-21, sgw-gearman-worker-28, sgw-gearman-worker-29, sgw-gearman-worker-7, sgw-gearman-worker-6, sgw-gearman-worker-5, sgw-gearman-worker-4, sgw-gearman-worker-3, sgw-gearman-worker-2, sgw-gearman-worker-1, sgw-gearman-worker-0, sgw-gearman-worker-9, sgw-gearman-worker-8, sgw-gearman-worker-13, sgw-gearman-worker-12, sgw-gearman-worker-11, sgw-gearman-worker-10, sgw-gearman-worker-17, sgw-gearman-worker-16, sgw-gearman-worker-15, sgw-gearman-worker-14, sgw-gearman-worker-19, sgw-gearman-worker-18, sgw-gearman-worker-30 to die
+2020-10-28 13:33:26,151 INFO stopped: sgw-gearman-worker-24 (terminated by SIGTERM)
+2020-10-28 13:33:26,151 INFO stopped: sgw-gearman-worker-26 (terminated by SIGTERM)
+2020-10-28 13:33:26,152 INFO stopped: sgw-gearman-worker-27 (terminated by SIGTERM)
+2020-10-28 13:33:26,152 INFO stopped: sgw-gearman-worker-25 (terminated by SIGTERM)
+2020-10-28 13:33:26,152 INFO stopped: sgw-gearman-worker-22 (terminated by SIGTERM)
+2020-10-28 13:33:26,152 INFO stopped: sgw-gearman-worker-23 (terminated by SIGTERM)
+2020-10-28 13:33:26,152 INFO stopped: sgw-gearman-worker-20 (terminated by SIGTERM)
+2020-10-28 13:33:26,152 INFO stopped: sgw-gearman-worker-21 (terminated by SIGTERM)
+2020-10-28 13:33:26,153 INFO stopped: sgw-gearman-worker-28 (terminated by SIGTERM)
+2020-10-28 13:33:26,153 INFO stopped: sgw-gearman-worker-29 (terminated by SIGTERM)
+2020-10-28 13:33:26,153 INFO stopped: sgw-gearman-worker-7 (terminated by SIGTERM)
+2020-10-28 13:33:26,153 INFO stopped: sgw-gearman-worker-6 (terminated by SIGTERM)
+2020-10-28 13:33:26,153 INFO stopped: sgw-gearman-worker-5 (terminated by SIGTERM)
+2020-10-28 13:33:26,153 INFO stopped: sgw-gearman-worker-4 (terminated by SIGTERM)
+2020-10-28 13:33:26,153 INFO stopped: sgw-gearman-worker-3 (terminated by SIGTERM)
+2020-10-28 13:33:26,154 INFO stopped: sgw-gearman-worker-2 (terminated by SIGTERM)
+2020-10-28 13:33:26,154 INFO stopped: sgw-gearman-worker-1 (terminated by SIGTERM)
+2020-10-28 13:33:26,154 INFO stopped: sgw-gearman-worker-0 (terminated by SIGTERM)
+2020-10-28 13:33:26,154 INFO stopped: sgw-gearman-worker-9 (terminated by SIGTERM)
+2020-10-28 13:33:26,154 INFO stopped: sgw-gearman-worker-8 (terminated by SIGTERM)
+2020-10-28 13:33:26,154 INFO stopped: sgw-gearman-worker-13 (terminated by SIGTERM)
+2020-10-28 13:33:26,154 INFO stopped: sgw-gearman-worker-12 (terminated by SIGTERM)
+2020-10-28 13:33:26,154 INFO stopped: sgw-gearman-worker-11 (terminated by SIGTERM)
+2020-10-28 13:33:26,155 INFO stopped: sgw-gearman-worker-10 (terminated by SIGTERM)
+2020-10-28 13:33:26,155 INFO stopped: sgw-gearman-worker-17 (terminated by SIGTERM)
+2020-10-28 13:33:26,155 INFO stopped: sgw-gearman-worker-16 (terminated by SIGTERM)
+2020-10-28 13:33:26,155 INFO stopped: sgw-gearman-worker-15 (terminated by SIGTERM)
+2020-10-28 13:33:26,155 INFO stopped: sgw-gearman-worker-14 (terminated by SIGTERM)
+2020-10-28 13:33:26,155 INFO stopped: sgw-gearman-worker-19 (terminated by SIGTERM)
+2020-10-28 13:33:26,155 INFO stopped: sgw-gearman-worker-18 (terminated by SIGTERM)
+2020-10-28 13:33:26,155 INFO stopped: sgw-gearman-worker-30 (terminated by SIGTERM)
+2020-10-28 13:34:08,802 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-10-28 13:34:08,802 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-10-28 13:34:08,811 INFO RPC interface 'supervisor' initialized
+2020-10-28 13:34:08,811 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-28 13:34:08,811 INFO daemonizing the supervisord process
+2020-10-28 13:34:08,812 INFO supervisord started with pid 812
+2020-10-28 13:34:09,816 INFO spawned: 'sgw-gearman-worker-26' with pid 826
+2020-10-28 13:34:09,820 INFO spawned: 'sgw-gearman-worker-27' with pid 827
+2020-10-28 13:34:09,824 INFO spawned: 'sgw-gearman-worker-24' with pid 828
+2020-10-28 13:34:09,825 INFO spawned: 'sgw-gearman-worker-25' with pid 829
+2020-10-28 13:34:09,826 INFO spawned: 'sgw-gearman-worker-22' with pid 830
+2020-10-28 13:34:09,827 INFO spawned: 'sgw-gearman-worker-23' with pid 831
+2020-10-28 13:34:09,828 INFO spawned: 'sgw-gearman-worker-20' with pid 832
+2020-10-28 13:34:09,829 INFO spawned: 'sgw-gearman-worker-21' with pid 833
+2020-10-28 13:34:09,829 INFO spawned: 'sgw-gearman-worker-28' with pid 834
+2020-10-28 13:34:09,830 INFO spawned: 'sgw-gearman-worker-29' with pid 835
+2020-10-28 13:34:09,831 INFO spawned: 'sgw-gearman-worker-7' with pid 836
+2020-10-28 13:34:09,833 INFO spawned: 'sgw-gearman-worker-6' with pid 837
+2020-10-28 13:34:09,834 INFO spawned: 'sgw-gearman-worker-5' with pid 838
+2020-10-28 13:34:09,835 INFO spawned: 'sgw-gearman-worker-4' with pid 839
+2020-10-28 13:34:09,836 INFO spawned: 'sgw-gearman-worker-3' with pid 840
+2020-10-28 13:34:09,846 INFO spawned: 'sgw-gearman-worker-2' with pid 841
+2020-10-28 13:34:09,846 INFO spawned: 'sgw-gearman-worker-1' with pid 842
+2020-10-28 13:34:09,848 INFO spawned: 'sgw-gearman-worker-0' with pid 843
+2020-10-28 13:34:09,849 INFO spawned: 'sgw-gearman-worker-9' with pid 844
+2020-10-28 13:34:09,852 INFO spawned: 'sgw-gearman-worker-8' with pid 845
+2020-10-28 13:34:09,853 INFO spawned: 'sgw-gearman-worker-13' with pid 846
+2020-10-28 13:34:09,870 INFO spawned: 'sgw-gearman-worker-12' with pid 847
+2020-10-28 13:34:09,871 INFO spawned: 'sgw-gearman-worker-11' with pid 848
+2020-10-28 13:34:09,872 INFO spawned: 'sgw-gearman-worker-10' with pid 849
+2020-10-28 13:34:09,873 INFO spawned: 'sgw-gearman-worker-17' with pid 850
+2020-10-28 13:34:09,882 INFO spawned: 'sgw-gearman-worker-16' with pid 851
+2020-10-28 13:34:09,883 INFO spawned: 'sgw-gearman-worker-15' with pid 852
+2020-10-28 13:34:09,884 INFO spawned: 'sgw-gearman-worker-14' with pid 853
+2020-10-28 13:34:09,891 INFO spawned: 'sgw-gearman-worker-19' with pid 854
+2020-10-28 13:34:09,892 INFO spawned: 'sgw-gearman-worker-18' with pid 855
+2020-10-28 13:34:09,905 INFO spawned: 'sgw-gearman-worker-30' with pid 856
+2020-10-28 13:34:11,118 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,118 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,118 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,118 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,118 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,118 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,118 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,119 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,120 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-28 13:34:11,121 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:06,453 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-10-29 08:49:06,458 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-10-29 08:49:06,822 INFO RPC interface 'supervisor' initialized
+2020-10-29 08:49:06,822 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-10-29 08:49:06,822 INFO daemonizing the supervisord process
+2020-10-29 08:49:07,040 INFO supervisord started with pid 13
+2020-10-29 08:49:08,043 INFO spawned: 'sgw-gearman-worker-26' with pid 28
+2020-10-29 08:49:08,043 INFO spawned: 'sgw-gearman-worker-27' with pid 29
+2020-10-29 08:49:08,044 INFO spawned: 'sgw-gearman-worker-24' with pid 30
+2020-10-29 08:49:08,045 INFO spawned: 'sgw-gearman-worker-25' with pid 31
+2020-10-29 08:49:08,046 INFO spawned: 'sgw-gearman-worker-22' with pid 32
+2020-10-29 08:49:08,046 INFO spawned: 'sgw-gearman-worker-23' with pid 33
+2020-10-29 08:49:08,047 INFO spawned: 'sgw-gearman-worker-20' with pid 34
+2020-10-29 08:49:08,048 INFO spawned: 'sgw-gearman-worker-21' with pid 35
+2020-10-29 08:49:08,049 INFO spawned: 'sgw-gearman-worker-28' with pid 36
+2020-10-29 08:49:08,050 INFO spawned: 'sgw-gearman-worker-29' with pid 37
+2020-10-29 08:49:08,050 INFO spawned: 'sgw-gearman-worker-7' with pid 38
+2020-10-29 08:49:08,051 INFO spawned: 'sgw-gearman-worker-6' with pid 39
+2020-10-29 08:49:08,052 INFO spawned: 'sgw-gearman-worker-5' with pid 40
+2020-10-29 08:49:08,053 INFO spawned: 'sgw-gearman-worker-4' with pid 41
+2020-10-29 08:49:08,060 INFO spawned: 'sgw-gearman-worker-3' with pid 42
+2020-10-29 08:49:08,061 INFO spawned: 'sgw-gearman-worker-2' with pid 43
+2020-10-29 08:49:08,066 INFO spawned: 'sgw-gearman-worker-1' with pid 44
+2020-10-29 08:49:08,067 INFO spawned: 'sgw-gearman-worker-0' with pid 45
+2020-10-29 08:49:08,072 INFO spawned: 'sgw-gearman-worker-9' with pid 46
+2020-10-29 08:49:08,073 INFO spawned: 'sgw-gearman-worker-8' with pid 47
+2020-10-29 08:49:08,075 INFO spawned: 'sgw-gearman-worker-13' with pid 48
+2020-10-29 08:49:08,076 INFO spawned: 'sgw-gearman-worker-12' with pid 49
+2020-10-29 08:49:08,077 INFO spawned: 'sgw-gearman-worker-11' with pid 50
+2020-10-29 08:49:08,077 INFO spawned: 'sgw-gearman-worker-10' with pid 51
+2020-10-29 08:49:08,085 INFO spawned: 'sgw-gearman-worker-17' with pid 52
+2020-10-29 08:49:08,087 INFO spawned: 'sgw-gearman-worker-16' with pid 53
+2020-10-29 08:49:08,088 INFO spawned: 'sgw-gearman-worker-15' with pid 54
+2020-10-29 08:49:08,089 INFO spawned: 'sgw-gearman-worker-14' with pid 55
+2020-10-29 08:49:08,115 INFO spawned: 'sgw-gearman-worker-19' with pid 56
+2020-10-29 08:49:08,116 INFO spawned: 'sgw-gearman-worker-18' with pid 57
+2020-10-29 08:49:08,120 INFO spawned: 'sgw-gearman-worker-30' with pid 58
+2020-10-29 08:49:09,427 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,427 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,427 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,427 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,427 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-10-29 08:49:09,428 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:01,294 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-02 01:57:01,317 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-02 01:57:01,736 INFO RPC interface 'supervisor' initialized
+2020-11-02 01:57:01,736 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-02 01:57:01,737 INFO daemonizing the supervisord process
+2020-11-02 01:57:01,963 INFO supervisord started with pid 13
+2020-11-02 01:57:02,966 INFO spawned: 'sgw-gearman-worker-26' with pid 28
+2020-11-02 01:57:02,967 INFO spawned: 'sgw-gearman-worker-27' with pid 29
+2020-11-02 01:57:02,968 INFO spawned: 'sgw-gearman-worker-24' with pid 30
+2020-11-02 01:57:02,969 INFO spawned: 'sgw-gearman-worker-25' with pid 31
+2020-11-02 01:57:02,969 INFO spawned: 'sgw-gearman-worker-22' with pid 32
+2020-11-02 01:57:02,970 INFO spawned: 'sgw-gearman-worker-23' with pid 33
+2020-11-02 01:57:02,971 INFO spawned: 'sgw-gearman-worker-20' with pid 34
+2020-11-02 01:57:02,972 INFO spawned: 'sgw-gearman-worker-21' with pid 35
+2020-11-02 01:57:02,973 INFO spawned: 'sgw-gearman-worker-28' with pid 36
+2020-11-02 01:57:02,974 INFO spawned: 'sgw-gearman-worker-29' with pid 37
+2020-11-02 01:57:02,975 INFO spawned: 'sgw-gearman-worker-7' with pid 38
+2020-11-02 01:57:02,976 INFO spawned: 'sgw-gearman-worker-6' with pid 39
+2020-11-02 01:57:02,976 INFO spawned: 'sgw-gearman-worker-5' with pid 40
+2020-11-02 01:57:02,977 INFO spawned: 'sgw-gearman-worker-4' with pid 41
+2020-11-02 01:57:02,978 INFO spawned: 'sgw-gearman-worker-3' with pid 42
+2020-11-02 01:57:02,979 INFO spawned: 'sgw-gearman-worker-2' with pid 43
+2020-11-02 01:57:02,980 INFO spawned: 'sgw-gearman-worker-1' with pid 44
+2020-11-02 01:57:02,980 INFO spawned: 'sgw-gearman-worker-0' with pid 45
+2020-11-02 01:57:02,981 INFO spawned: 'sgw-gearman-worker-9' with pid 46
+2020-11-02 01:57:02,982 INFO spawned: 'sgw-gearman-worker-8' with pid 47
+2020-11-02 01:57:02,987 INFO spawned: 'sgw-gearman-worker-13' with pid 48
+2020-11-02 01:57:02,988 INFO spawned: 'sgw-gearman-worker-12' with pid 49
+2020-11-02 01:57:03,008 INFO spawned: 'sgw-gearman-worker-11' with pid 50
+2020-11-02 01:57:03,009 INFO spawned: 'sgw-gearman-worker-10' with pid 51
+2020-11-02 01:57:03,010 INFO spawned: 'sgw-gearman-worker-17' with pid 52
+2020-11-02 01:57:03,011 INFO spawned: 'sgw-gearman-worker-16' with pid 53
+2020-11-02 01:57:03,012 INFO spawned: 'sgw-gearman-worker-15' with pid 54
+2020-11-02 01:57:03,013 INFO spawned: 'sgw-gearman-worker-14' with pid 55
+2020-11-02 01:57:03,014 INFO spawned: 'sgw-gearman-worker-19' with pid 56
+2020-11-02 01:57:03,034 INFO spawned: 'sgw-gearman-worker-18' with pid 57
+2020-11-02 01:57:03,035 INFO spawned: 'sgw-gearman-worker-30' with pid 58
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,308 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,309 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 01:57:04,309 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:37,305 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-02 09:30:37,312 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-02 09:30:37,716 INFO RPC interface 'supervisor' initialized
+2020-11-02 09:30:37,723 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-02 09:30:37,725 INFO daemonizing the supervisord process
+2020-11-02 09:30:37,733 INFO supervisord started with pid 14
+2020-11-02 09:30:38,738 INFO spawned: 'sgw-gearman-worker-26' with pid 29
+2020-11-02 09:30:38,741 INFO spawned: 'sgw-gearman-worker-27' with pid 30
+2020-11-02 09:30:38,745 INFO spawned: 'sgw-gearman-worker-24' with pid 31
+2020-11-02 09:30:38,749 INFO spawned: 'sgw-gearman-worker-25' with pid 32
+2020-11-02 09:30:38,752 INFO spawned: 'sgw-gearman-worker-22' with pid 33
+2020-11-02 09:30:38,756 INFO spawned: 'sgw-gearman-worker-23' with pid 34
+2020-11-02 09:30:38,759 INFO spawned: 'sgw-gearman-worker-20' with pid 35
+2020-11-02 09:30:38,763 INFO spawned: 'sgw-gearman-worker-21' with pid 36
+2020-11-02 09:30:38,767 INFO spawned: 'sgw-gearman-worker-28' with pid 37
+2020-11-02 09:30:38,770 INFO spawned: 'sgw-gearman-worker-29' with pid 38
+2020-11-02 09:30:38,772 INFO spawned: 'sgw-gearman-worker-7' with pid 39
+2020-11-02 09:30:38,774 INFO spawned: 'sgw-gearman-worker-6' with pid 40
+2020-11-02 09:30:38,776 INFO spawned: 'sgw-gearman-worker-5' with pid 41
+2020-11-02 09:30:38,778 INFO spawned: 'sgw-gearman-worker-4' with pid 42
+2020-11-02 09:30:38,779 INFO spawned: 'sgw-gearman-worker-3' with pid 43
+2020-11-02 09:30:38,781 INFO spawned: 'sgw-gearman-worker-2' with pid 44
+2020-11-02 09:30:38,782 INFO spawned: 'sgw-gearman-worker-1' with pid 45
+2020-11-02 09:30:38,784 INFO spawned: 'sgw-gearman-worker-0' with pid 46
+2020-11-02 09:30:38,785 INFO spawned: 'sgw-gearman-worker-9' with pid 47
+2020-11-02 09:30:38,786 INFO spawned: 'sgw-gearman-worker-8' with pid 48
+2020-11-02 09:30:38,788 INFO spawned: 'sgw-gearman-worker-13' with pid 49
+2020-11-02 09:30:38,789 INFO spawned: 'sgw-gearman-worker-12' with pid 50
+2020-11-02 09:30:38,791 INFO spawned: 'sgw-gearman-worker-11' with pid 51
+2020-11-02 09:30:38,792 INFO spawned: 'sgw-gearman-worker-10' with pid 52
+2020-11-02 09:30:38,793 INFO spawned: 'sgw-gearman-worker-17' with pid 53
+2020-11-02 09:30:38,807 INFO spawned: 'sgw-gearman-worker-16' with pid 54
+2020-11-02 09:30:38,808 INFO spawned: 'sgw-gearman-worker-15' with pid 55
+2020-11-02 09:30:38,810 INFO spawned: 'sgw-gearman-worker-14' with pid 56
+2020-11-02 09:30:38,811 INFO spawned: 'sgw-gearman-worker-19' with pid 57
+2020-11-02 09:30:38,812 INFO spawned: 'sgw-gearman-worker-18' with pid 58
+2020-11-02 09:30:38,813 INFO spawned: 'sgw-gearman-worker-30' with pid 59
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,622 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,623 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,624 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,624 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,624 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-02 09:30:40,624 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:25,257 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-05 09:20:25,259 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-05 09:20:25,646 INFO RPC interface 'supervisor' initialized
+2020-11-05 09:20:25,646 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-05 09:20:25,647 INFO daemonizing the supervisord process
+2020-11-05 09:20:25,928 INFO supervisord started with pid 14
+2020-11-05 09:20:26,932 INFO spawned: 'sgw-gearman-worker-26' with pid 29
+2020-11-05 09:20:26,935 INFO spawned: 'sgw-gearman-worker-27' with pid 30
+2020-11-05 09:20:26,936 INFO spawned: 'sgw-gearman-worker-24' with pid 31
+2020-11-05 09:20:26,937 INFO spawned: 'sgw-gearman-worker-25' with pid 32
+2020-11-05 09:20:26,937 INFO spawned: 'sgw-gearman-worker-22' with pid 33
+2020-11-05 09:20:26,938 INFO spawned: 'sgw-gearman-worker-23' with pid 34
+2020-11-05 09:20:26,939 INFO spawned: 'sgw-gearman-worker-20' with pid 35
+2020-11-05 09:20:26,940 INFO spawned: 'sgw-gearman-worker-21' with pid 36
+2020-11-05 09:20:26,941 INFO spawned: 'sgw-gearman-worker-28' with pid 37
+2020-11-05 09:20:26,941 INFO spawned: 'sgw-gearman-worker-29' with pid 38
+2020-11-05 09:20:26,942 INFO spawned: 'sgw-gearman-worker-7' with pid 39
+2020-11-05 09:20:26,943 INFO spawned: 'sgw-gearman-worker-6' with pid 40
+2020-11-05 09:20:26,944 INFO spawned: 'sgw-gearman-worker-5' with pid 41
+2020-11-05 09:20:26,945 INFO spawned: 'sgw-gearman-worker-4' with pid 42
+2020-11-05 09:20:26,945 INFO spawned: 'sgw-gearman-worker-3' with pid 43
+2020-11-05 09:20:26,946 INFO spawned: 'sgw-gearman-worker-2' with pid 44
+2020-11-05 09:20:26,947 INFO spawned: 'sgw-gearman-worker-1' with pid 45
+2020-11-05 09:20:26,948 INFO spawned: 'sgw-gearman-worker-0' with pid 46
+2020-11-05 09:20:26,949 INFO spawned: 'sgw-gearman-worker-9' with pid 47
+2020-11-05 09:20:26,949 INFO spawned: 'sgw-gearman-worker-8' with pid 48
+2020-11-05 09:20:26,950 INFO spawned: 'sgw-gearman-worker-13' with pid 49
+2020-11-05 09:20:26,951 INFO spawned: 'sgw-gearman-worker-12' with pid 50
+2020-11-05 09:20:26,952 INFO spawned: 'sgw-gearman-worker-11' with pid 51
+2020-11-05 09:20:26,953 INFO spawned: 'sgw-gearman-worker-10' with pid 52
+2020-11-05 09:20:26,953 INFO spawned: 'sgw-gearman-worker-17' with pid 53
+2020-11-05 09:20:26,954 INFO spawned: 'sgw-gearman-worker-16' with pid 54
+2020-11-05 09:20:26,955 INFO spawned: 'sgw-gearman-worker-15' with pid 55
+2020-11-05 09:20:26,956 INFO spawned: 'sgw-gearman-worker-14' with pid 56
+2020-11-05 09:20:26,957 INFO spawned: 'sgw-gearman-worker-19' with pid 57
+2020-11-05 09:20:26,957 INFO spawned: 'sgw-gearman-worker-18' with pid 58
+2020-11-05 09:20:26,958 INFO spawned: 'sgw-gearman-worker-30' with pid 59
+2020-11-05 09:20:28,741 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,742 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:20:28,743 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:15,047 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-05 09:51:15,051 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-05 09:51:15,442 INFO RPC interface 'supervisor' initialized
+2020-11-05 09:51:15,442 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-05 09:51:15,443 INFO daemonizing the supervisord process
+2020-11-05 09:51:15,616 INFO supervisord started with pid 13
+2020-11-05 09:51:16,620 INFO spawned: 'sgw-gearman-worker-26' with pid 28
+2020-11-05 09:51:16,624 INFO spawned: 'sgw-gearman-worker-27' with pid 29
+2020-11-05 09:51:16,628 INFO spawned: 'sgw-gearman-worker-24' with pid 30
+2020-11-05 09:51:16,631 INFO spawned: 'sgw-gearman-worker-25' with pid 31
+2020-11-05 09:51:16,634 INFO spawned: 'sgw-gearman-worker-22' with pid 32
+2020-11-05 09:51:16,636 INFO spawned: 'sgw-gearman-worker-23' with pid 33
+2020-11-05 09:51:16,639 INFO spawned: 'sgw-gearman-worker-20' with pid 34
+2020-11-05 09:51:16,641 INFO spawned: 'sgw-gearman-worker-21' with pid 35
+2020-11-05 09:51:16,642 INFO spawned: 'sgw-gearman-worker-28' with pid 36
+2020-11-05 09:51:16,644 INFO spawned: 'sgw-gearman-worker-29' with pid 37
+2020-11-05 09:51:16,645 INFO spawned: 'sgw-gearman-worker-7' with pid 38
+2020-11-05 09:51:16,647 INFO spawned: 'sgw-gearman-worker-6' with pid 39
+2020-11-05 09:51:16,648 INFO spawned: 'sgw-gearman-worker-5' with pid 40
+2020-11-05 09:51:16,649 INFO spawned: 'sgw-gearman-worker-4' with pid 41
+2020-11-05 09:51:16,650 INFO spawned: 'sgw-gearman-worker-3' with pid 42
+2020-11-05 09:51:16,652 INFO spawned: 'sgw-gearman-worker-2' with pid 43
+2020-11-05 09:51:16,653 INFO spawned: 'sgw-gearman-worker-1' with pid 44
+2020-11-05 09:51:16,654 INFO spawned: 'sgw-gearman-worker-0' with pid 45
+2020-11-05 09:51:16,655 INFO spawned: 'sgw-gearman-worker-9' with pid 46
+2020-11-05 09:51:16,656 INFO spawned: 'sgw-gearman-worker-8' with pid 47
+2020-11-05 09:51:16,657 INFO spawned: 'sgw-gearman-worker-13' with pid 48
+2020-11-05 09:51:16,666 INFO spawned: 'sgw-gearman-worker-12' with pid 49
+2020-11-05 09:51:16,667 INFO spawned: 'sgw-gearman-worker-11' with pid 50
+2020-11-05 09:51:16,668 INFO spawned: 'sgw-gearman-worker-10' with pid 51
+2020-11-05 09:51:16,669 INFO spawned: 'sgw-gearman-worker-17' with pid 52
+2020-11-05 09:51:16,670 INFO spawned: 'sgw-gearman-worker-16' with pid 53
+2020-11-05 09:51:16,676 INFO spawned: 'sgw-gearman-worker-15' with pid 54
+2020-11-05 09:51:16,677 INFO spawned: 'sgw-gearman-worker-14' with pid 55
+2020-11-05 09:51:16,678 INFO spawned: 'sgw-gearman-worker-19' with pid 56
+2020-11-05 09:51:16,679 INFO spawned: 'sgw-gearman-worker-18' with pid 57
+2020-11-05 09:51:16,680 INFO spawned: 'sgw-gearman-worker-30' with pid 58
+2020-11-05 09:51:18,534 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,534 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,534 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,534 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,534 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,534 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,534 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,534 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-05 09:51:18,535 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:13,830 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-07 09:18:13,834 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-07 09:18:14,303 INFO RPC interface 'supervisor' initialized
+2020-11-07 09:18:14,303 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-07 09:18:14,305 INFO daemonizing the supervisord process
+2020-11-07 09:18:14,309 INFO supervisord started with pid 14
+2020-11-07 09:18:15,313 INFO spawned: 'sgw-gearman-worker-26' with pid 29
+2020-11-07 09:18:15,317 INFO spawned: 'sgw-gearman-worker-27' with pid 30
+2020-11-07 09:18:15,320 INFO spawned: 'sgw-gearman-worker-24' with pid 31
+2020-11-07 09:18:15,324 INFO spawned: 'sgw-gearman-worker-25' with pid 32
+2020-11-07 09:18:15,328 INFO spawned: 'sgw-gearman-worker-22' with pid 33
+2020-11-07 09:18:15,331 INFO spawned: 'sgw-gearman-worker-23' with pid 34
+2020-11-07 09:18:15,335 INFO spawned: 'sgw-gearman-worker-20' with pid 35
+2020-11-07 09:18:15,337 INFO spawned: 'sgw-gearman-worker-21' with pid 36
+2020-11-07 09:18:15,340 INFO spawned: 'sgw-gearman-worker-28' with pid 37
+2020-11-07 09:18:15,342 INFO spawned: 'sgw-gearman-worker-29' with pid 38
+2020-11-07 09:18:15,344 INFO spawned: 'sgw-gearman-worker-7' with pid 39
+2020-11-07 09:18:15,345 INFO spawned: 'sgw-gearman-worker-6' with pid 40
+2020-11-07 09:18:15,347 INFO spawned: 'sgw-gearman-worker-5' with pid 41
+2020-11-07 09:18:15,350 INFO spawned: 'sgw-gearman-worker-4' with pid 42
+2020-11-07 09:18:15,352 INFO spawned: 'sgw-gearman-worker-3' with pid 43
+2020-11-07 09:18:15,353 INFO spawned: 'sgw-gearman-worker-2' with pid 44
+2020-11-07 09:18:15,354 INFO spawned: 'sgw-gearman-worker-1' with pid 45
+2020-11-07 09:18:15,355 INFO spawned: 'sgw-gearman-worker-0' with pid 46
+2020-11-07 09:18:15,357 INFO spawned: 'sgw-gearman-worker-9' with pid 47
+2020-11-07 09:18:15,358 INFO spawned: 'sgw-gearman-worker-8' with pid 48
+2020-11-07 09:18:15,359 INFO spawned: 'sgw-gearman-worker-13' with pid 49
+2020-11-07 09:18:15,360 INFO spawned: 'sgw-gearman-worker-12' with pid 50
+2020-11-07 09:18:15,361 INFO spawned: 'sgw-gearman-worker-11' with pid 51
+2020-11-07 09:18:15,362 INFO spawned: 'sgw-gearman-worker-10' with pid 52
+2020-11-07 09:18:15,363 INFO spawned: 'sgw-gearman-worker-17' with pid 53
+2020-11-07 09:18:15,364 INFO spawned: 'sgw-gearman-worker-16' with pid 54
+2020-11-07 09:18:15,365 INFO spawned: 'sgw-gearman-worker-15' with pid 55
+2020-11-07 09:18:15,366 INFO spawned: 'sgw-gearman-worker-14' with pid 56
+2020-11-07 09:18:15,367 INFO spawned: 'sgw-gearman-worker-19' with pid 57
+2020-11-07 09:18:15,368 INFO spawned: 'sgw-gearman-worker-18' with pid 58
+2020-11-07 09:18:15,369 INFO spawned: 'sgw-gearman-worker-30' with pid 59
+2020-11-07 09:18:16,370 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,370 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,370 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,370 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,371 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,372 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,373 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,373 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,373 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,373 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,373 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-07 09:18:16,373 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:06:58,142 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-09 02:06:58,192 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-09 02:06:58,569 INFO RPC interface 'supervisor' initialized
+2020-11-09 02:06:58,569 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-09 02:06:58,571 INFO daemonizing the supervisord process
+2020-11-09 02:06:59,047 INFO supervisord started with pid 13
+2020-11-09 02:07:00,050 INFO spawned: 'sgw-gearman-worker-26' with pid 28
+2020-11-09 02:07:00,052 INFO spawned: 'sgw-gearman-worker-27' with pid 29
+2020-11-09 02:07:00,053 INFO spawned: 'sgw-gearman-worker-24' with pid 30
+2020-11-09 02:07:00,055 INFO spawned: 'sgw-gearman-worker-25' with pid 31
+2020-11-09 02:07:00,056 INFO spawned: 'sgw-gearman-worker-22' with pid 32
+2020-11-09 02:07:00,057 INFO spawned: 'sgw-gearman-worker-23' with pid 33
+2020-11-09 02:07:00,059 INFO spawned: 'sgw-gearman-worker-20' with pid 34
+2020-11-09 02:07:00,060 INFO spawned: 'sgw-gearman-worker-21' with pid 35
+2020-11-09 02:07:00,062 INFO spawned: 'sgw-gearman-worker-28' with pid 36
+2020-11-09 02:07:00,063 INFO spawned: 'sgw-gearman-worker-29' with pid 37
+2020-11-09 02:07:00,064 INFO spawned: 'sgw-gearman-worker-7' with pid 38
+2020-11-09 02:07:00,065 INFO spawned: 'sgw-gearman-worker-6' with pid 39
+2020-11-09 02:07:00,066 INFO spawned: 'sgw-gearman-worker-5' with pid 40
+2020-11-09 02:07:00,067 INFO spawned: 'sgw-gearman-worker-4' with pid 41
+2020-11-09 02:07:00,068 INFO spawned: 'sgw-gearman-worker-3' with pid 42
+2020-11-09 02:07:00,069 INFO spawned: 'sgw-gearman-worker-2' with pid 43
+2020-11-09 02:07:00,070 INFO spawned: 'sgw-gearman-worker-1' with pid 44
+2020-11-09 02:07:00,071 INFO spawned: 'sgw-gearman-worker-0' with pid 45
+2020-11-09 02:07:00,072 INFO spawned: 'sgw-gearman-worker-9' with pid 46
+2020-11-09 02:07:00,073 INFO spawned: 'sgw-gearman-worker-8' with pid 47
+2020-11-09 02:07:00,074 INFO spawned: 'sgw-gearman-worker-13' with pid 48
+2020-11-09 02:07:00,075 INFO spawned: 'sgw-gearman-worker-12' with pid 49
+2020-11-09 02:07:00,076 INFO spawned: 'sgw-gearman-worker-11' with pid 50
+2020-11-09 02:07:00,077 INFO spawned: 'sgw-gearman-worker-10' with pid 51
+2020-11-09 02:07:00,078 INFO spawned: 'sgw-gearman-worker-17' with pid 52
+2020-11-09 02:07:00,079 INFO spawned: 'sgw-gearman-worker-16' with pid 53
+2020-11-09 02:07:00,080 INFO spawned: 'sgw-gearman-worker-15' with pid 54
+2020-11-09 02:07:00,080 INFO spawned: 'sgw-gearman-worker-14' with pid 55
+2020-11-09 02:07:00,081 INFO spawned: 'sgw-gearman-worker-19' with pid 56
+2020-11-09 02:07:00,082 INFO spawned: 'sgw-gearman-worker-18' with pid 57
+2020-11-09 02:07:00,083 INFO spawned: 'sgw-gearman-worker-30' with pid 58
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-26 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-27 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-24 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-25 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-22 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-23 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-20 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-21 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-28 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-29 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-13 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-12 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-11 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-10 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-17 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-16 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-15 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-14 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-19 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,970 INFO success: sgw-gearman-worker-18 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 02:07:01,971 INFO success: sgw-gearman-worker-30 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:01,018 WARN received SIGTERM indicating exit request
+2020-11-09 10:39:01,019 INFO waiting for sgw-gearman-worker-26, sgw-gearman-worker-27, sgw-gearman-worker-24, sgw-gearman-worker-25, sgw-gearman-worker-22, sgw-gearman-worker-23, sgw-gearman-worker-20, sgw-gearman-worker-21, sgw-gearman-worker-28, sgw-gearman-worker-29, sgw-gearman-worker-7, sgw-gearman-worker-6, sgw-gearman-worker-5, sgw-gearman-worker-4, sgw-gearman-worker-3, sgw-gearman-worker-2, sgw-gearman-worker-1, sgw-gearman-worker-0, sgw-gearman-worker-9, sgw-gearman-worker-8, sgw-gearman-worker-13, sgw-gearman-worker-12, sgw-gearman-worker-11, sgw-gearman-worker-10, sgw-gearman-worker-17, sgw-gearman-worker-16, sgw-gearman-worker-15, sgw-gearman-worker-14, sgw-gearman-worker-19, sgw-gearman-worker-18, sgw-gearman-worker-30 to die
+2020-11-09 10:39:01,025 INFO stopped: sgw-gearman-worker-5 (terminated by SIGTERM)
+2020-11-09 10:39:01,028 INFO stopped: sgw-gearman-worker-1 (terminated by SIGTERM)
+2020-11-09 10:39:01,031 INFO stopped: sgw-gearman-worker-27 (terminated by SIGTERM)
+2020-11-09 10:39:01,031 INFO stopped: sgw-gearman-worker-0 (terminated by SIGTERM)
+2020-11-09 10:39:01,032 INFO stopped: sgw-gearman-worker-16 (terminated by SIGTERM)
+2020-11-09 10:39:01,032 INFO stopped: sgw-gearman-worker-14 (terminated by SIGTERM)
+2020-11-09 10:39:01,033 INFO stopped: sgw-gearman-worker-21 (terminated by SIGTERM)
+2020-11-09 10:39:01,034 INFO stopped: sgw-gearman-worker-12 (terminated by SIGTERM)
+2020-11-09 10:39:01,036 INFO stopped: sgw-gearman-worker-22 (terminated by SIGTERM)
+2020-11-09 10:39:01,036 INFO stopped: sgw-gearman-worker-30 (terminated by SIGTERM)
+2020-11-09 10:39:01,039 INFO stopped: sgw-gearman-worker-26 (terminated by SIGTERM)
+2020-11-09 10:39:01,039 INFO stopped: sgw-gearman-worker-17 (terminated by SIGTERM)
+2020-11-09 10:39:01,039 INFO stopped: sgw-gearman-worker-11 (terminated by SIGTERM)
+2020-11-09 10:39:01,040 INFO stopped: sgw-gearman-worker-3 (terminated by SIGTERM)
+2020-11-09 10:39:01,041 INFO stopped: sgw-gearman-worker-25 (terminated by SIGTERM)
+2020-11-09 10:39:01,043 INFO stopped: sgw-gearman-worker-28 (terminated by SIGTERM)
+2020-11-09 10:39:01,043 INFO stopped: sgw-gearman-worker-29 (terminated by SIGTERM)
+2020-11-09 10:39:01,043 INFO stopped: sgw-gearman-worker-7 (terminated by SIGTERM)
+2020-11-09 10:39:01,043 INFO stopped: sgw-gearman-worker-6 (terminated by SIGTERM)
+2020-11-09 10:39:01,044 INFO stopped: sgw-gearman-worker-2 (terminated by SIGTERM)
+2020-11-09 10:39:01,044 INFO stopped: sgw-gearman-worker-10 (terminated by SIGTERM)
+2020-11-09 10:39:01,044 INFO stopped: sgw-gearman-worker-19 (terminated by SIGTERM)
+2020-11-09 10:39:01,046 INFO stopped: sgw-gearman-worker-13 (terminated by SIGTERM)
+2020-11-09 10:39:01,046 INFO stopped: sgw-gearman-worker-24 (terminated by SIGTERM)
+2020-11-09 10:39:01,046 INFO stopped: sgw-gearman-worker-8 (terminated by SIGTERM)
+2020-11-09 10:39:01,047 INFO stopped: sgw-gearman-worker-15 (terminated by SIGTERM)
+2020-11-09 10:39:01,047 INFO stopped: sgw-gearman-worker-18 (terminated by SIGTERM)
+2020-11-09 10:39:01,048 INFO stopped: sgw-gearman-worker-9 (terminated by SIGTERM)
+2020-11-09 10:39:01,049 INFO stopped: sgw-gearman-worker-23 (terminated by SIGTERM)
+2020-11-09 10:39:01,049 INFO stopped: sgw-gearman-worker-20 (terminated by SIGTERM)
+2020-11-09 10:39:01,049 INFO stopped: sgw-gearman-worker-4 (terminated by SIGTERM)
+2020-11-09 10:39:05,920 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-09 10:39:05,920 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-09 10:39:05,926 INFO RPC interface 'supervisor' initialized
+2020-11-09 10:39:05,926 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-09 10:39:05,930 INFO daemonizing the supervisord process
+2020-11-09 10:39:05,930 INFO supervisord started with pid 848
+2020-11-09 10:39:06,935 INFO spawned: 'sgw-gearman-worker-7' with pid 851
+2020-11-09 10:39:06,939 INFO spawned: 'sgw-gearman-worker-6' with pid 856
+2020-11-09 10:39:06,942 INFO spawned: 'sgw-gearman-worker-5' with pid 857
+2020-11-09 10:39:06,947 INFO spawned: 'sgw-gearman-worker-4' with pid 859
+2020-11-09 10:39:06,950 INFO spawned: 'sgw-gearman-worker-3' with pid 861
+2020-11-09 10:39:06,955 INFO spawned: 'sgw-gearman-worker-2' with pid 862
+2020-11-09 10:39:06,960 INFO spawned: 'sgw-gearman-worker-1' with pid 864
+2020-11-09 10:39:06,964 INFO spawned: 'sgw-gearman-worker-0' with pid 865
+2020-11-09 10:39:06,971 INFO spawned: 'sgw-gearman-worker-9' with pid 867
+2020-11-09 10:39:06,973 INFO spawned: 'sgw-gearman-worker-8' with pid 868
+2020-11-09 10:39:08,078 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,078 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,078 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,078 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,078 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,079 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,079 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,079 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,079 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-09 10:39:08,079 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:41,886 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-10 02:06:41,889 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-10 02:06:42,279 INFO RPC interface 'supervisor' initialized
+2020-11-10 02:06:42,279 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-10 02:06:42,281 INFO daemonizing the supervisord process
+2020-11-10 02:06:42,341 INFO supervisord started with pid 13
+2020-11-10 02:06:43,346 INFO spawned: 'sgw-gearman-worker-7' with pid 28
+2020-11-10 02:06:43,415 INFO spawned: 'sgw-gearman-worker-6' with pid 29
+2020-11-10 02:06:43,419 INFO spawned: 'sgw-gearman-worker-5' with pid 30
+2020-11-10 02:06:43,423 INFO spawned: 'sgw-gearman-worker-4' with pid 31
+2020-11-10 02:06:43,427 INFO spawned: 'sgw-gearman-worker-3' with pid 32
+2020-11-10 02:06:43,430 INFO spawned: 'sgw-gearman-worker-2' with pid 33
+2020-11-10 02:06:43,433 INFO spawned: 'sgw-gearman-worker-1' with pid 34
+2020-11-10 02:06:43,435 INFO spawned: 'sgw-gearman-worker-0' with pid 35
+2020-11-10 02:06:43,437 INFO spawned: 'sgw-gearman-worker-9' with pid 36
+2020-11-10 02:06:43,439 INFO spawned: 'sgw-gearman-worker-8' with pid 37
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-10 02:06:44,441 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:24,140 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-12 09:33:24,154 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-12 09:33:24,521 INFO RPC interface 'supervisor' initialized
+2020-11-12 09:33:24,522 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-12 09:33:24,523 INFO daemonizing the supervisord process
+2020-11-12 09:33:24,854 INFO supervisord started with pid 14
+2020-11-12 09:33:25,859 INFO spawned: 'sgw-gearman-worker-7' with pid 29
+2020-11-12 09:33:25,862 INFO spawned: 'sgw-gearman-worker-6' with pid 30
+2020-11-12 09:33:25,866 INFO spawned: 'sgw-gearman-worker-5' with pid 31
+2020-11-12 09:33:25,870 INFO spawned: 'sgw-gearman-worker-4' with pid 32
+2020-11-12 09:33:25,874 INFO spawned: 'sgw-gearman-worker-3' with pid 33
+2020-11-12 09:33:25,877 INFO spawned: 'sgw-gearman-worker-2' with pid 34
+2020-11-12 09:33:25,881 INFO spawned: 'sgw-gearman-worker-1' with pid 35
+2020-11-12 09:33:25,884 INFO spawned: 'sgw-gearman-worker-0' with pid 36
+2020-11-12 09:33:25,887 INFO spawned: 'sgw-gearman-worker-9' with pid 37
+2020-11-12 09:33:25,889 INFO spawned: 'sgw-gearman-worker-8' with pid 38
+2020-11-12 09:33:26,890 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-12 09:33:26,891 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:32,121 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-16 04:02:32,125 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-16 04:02:32,496 INFO RPC interface 'supervisor' initialized
+2020-11-16 04:02:32,496 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-16 04:02:32,497 INFO daemonizing the supervisord process
+2020-11-16 04:02:32,582 INFO supervisord started with pid 13
+2020-11-16 04:02:33,587 INFO spawned: 'sgw-gearman-worker-7' with pid 28
+2020-11-16 04:02:33,590 INFO spawned: 'sgw-gearman-worker-6' with pid 29
+2020-11-16 04:02:33,594 INFO spawned: 'sgw-gearman-worker-5' with pid 30
+2020-11-16 04:02:33,598 INFO spawned: 'sgw-gearman-worker-4' with pid 31
+2020-11-16 04:02:33,602 INFO spawned: 'sgw-gearman-worker-3' with pid 32
+2020-11-16 04:02:33,606 INFO spawned: 'sgw-gearman-worker-2' with pid 33
+2020-11-16 04:02:33,610 INFO spawned: 'sgw-gearman-worker-1' with pid 34
+2020-11-16 04:02:33,615 INFO spawned: 'sgw-gearman-worker-0' with pid 35
+2020-11-16 04:02:33,618 INFO spawned: 'sgw-gearman-worker-9' with pid 36
+2020-11-16 04:02:33,621 INFO spawned: 'sgw-gearman-worker-8' with pid 37
+2020-11-16 04:02:34,622 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:34,623 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:36,370 INFO exited: sgw-gearman-worker-0 (exit status 255; not expected)
+2020-11-16 04:02:36,378 INFO spawned: 'sgw-gearman-worker-0' with pid 38
+2020-11-16 04:02:36,379 INFO exited: sgw-gearman-worker-3 (exit status 255; not expected)
+2020-11-16 04:02:36,385 INFO spawned: 'sgw-gearman-worker-3' with pid 39
+2020-11-16 04:02:36,388 INFO exited: sgw-gearman-worker-6 (exit status 255; not expected)
+2020-11-16 04:02:36,389 INFO exited: sgw-gearman-worker-5 (exit status 255; not expected)
+2020-11-16 04:02:36,389 INFO exited: sgw-gearman-worker-9 (exit status 255; not expected)
+2020-11-16 04:02:36,389 INFO exited: sgw-gearman-worker-8 (exit status 255; not expected)
+2020-11-16 04:02:36,436 INFO spawned: 'sgw-gearman-worker-6' with pid 40
+2020-11-16 04:02:36,437 INFO spawned: 'sgw-gearman-worker-5' with pid 41
+2020-11-16 04:02:36,438 INFO spawned: 'sgw-gearman-worker-9' with pid 42
+2020-11-16 04:02:36,439 INFO spawned: 'sgw-gearman-worker-8' with pid 43
+2020-11-16 04:02:36,439 INFO exited: sgw-gearman-worker-7 (exit status 255; not expected)
+2020-11-16 04:02:36,439 INFO exited: sgw-gearman-worker-4 (exit status 255; not expected)
+2020-11-16 04:02:36,439 INFO exited: sgw-gearman-worker-2 (exit status 255; not expected)
+2020-11-16 04:02:36,439 INFO exited: sgw-gearman-worker-1 (exit status 255; not expected)
+2020-11-16 04:02:36,440 INFO spawned: 'sgw-gearman-worker-7' with pid 44
+2020-11-16 04:02:36,441 INFO spawned: 'sgw-gearman-worker-4' with pid 45
+2020-11-16 04:02:36,442 INFO spawned: 'sgw-gearman-worker-2' with pid 46
+2020-11-16 04:02:36,443 INFO spawned: 'sgw-gearman-worker-1' with pid 47
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-16 04:02:37,597 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:18,831 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-18 03:04:18,835 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-18 03:04:19,227 INFO RPC interface 'supervisor' initialized
+2020-11-18 03:04:19,227 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-18 03:04:19,228 INFO daemonizing the supervisord process
+2020-11-18 03:04:19,347 INFO supervisord started with pid 14
+2020-11-18 03:04:20,351 INFO spawned: 'sgw-gearman-worker-7' with pid 29
+2020-11-18 03:04:20,355 INFO spawned: 'sgw-gearman-worker-6' with pid 30
+2020-11-18 03:04:20,359 INFO spawned: 'sgw-gearman-worker-5' with pid 31
+2020-11-18 03:04:20,363 INFO spawned: 'sgw-gearman-worker-4' with pid 32
+2020-11-18 03:04:20,373 INFO spawned: 'sgw-gearman-worker-3' with pid 33
+2020-11-18 03:04:20,374 INFO spawned: 'sgw-gearman-worker-2' with pid 34
+2020-11-18 03:04:20,376 INFO spawned: 'sgw-gearman-worker-1' with pid 35
+2020-11-18 03:04:20,378 INFO spawned: 'sgw-gearman-worker-0' with pid 36
+2020-11-18 03:04:20,380 INFO spawned: 'sgw-gearman-worker-9' with pid 37
+2020-11-18 03:04:20,390 INFO spawned: 'sgw-gearman-worker-8' with pid 38
+2020-11-18 03:04:21,391 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,392 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,392 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,392 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,392 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,393 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,393 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,393 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,394 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:21,394 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:22,820 INFO exited: sgw-gearman-worker-0 (exit status 255; not expected)
+2020-11-18 03:04:23,058 INFO spawned: 'sgw-gearman-worker-0' with pid 39
+2020-11-18 03:04:23,063 INFO exited: sgw-gearman-worker-3 (exit status 255; not expected)
+2020-11-18 03:04:23,069 INFO exited: sgw-gearman-worker-7 (exit status 255; not expected)
+2020-11-18 03:04:23,069 INFO exited: sgw-gearman-worker-5 (exit status 255; not expected)
+2020-11-18 03:04:23,069 INFO exited: sgw-gearman-worker-2 (exit status 255; not expected)
+2020-11-18 03:04:23,069 INFO exited: sgw-gearman-worker-1 (exit status 255; not expected)
+2020-11-18 03:04:23,070 INFO exited: sgw-gearman-worker-8 (exit status 255; not expected)
+2020-11-18 03:04:23,071 INFO spawned: 'sgw-gearman-worker-7' with pid 40
+2020-11-18 03:04:23,071 INFO spawned: 'sgw-gearman-worker-5' with pid 41
+2020-11-18 03:04:23,072 INFO spawned: 'sgw-gearman-worker-3' with pid 42
+2020-11-18 03:04:23,073 INFO spawned: 'sgw-gearman-worker-2' with pid 43
+2020-11-18 03:04:23,074 INFO spawned: 'sgw-gearman-worker-1' with pid 44
+2020-11-18 03:04:23,075 INFO spawned: 'sgw-gearman-worker-8' with pid 45
+2020-11-18 03:04:23,076 INFO exited: sgw-gearman-worker-4 (exit status 255; not expected)
+2020-11-18 03:04:23,076 INFO exited: sgw-gearman-worker-9 (exit status 255; not expected)
+2020-11-18 03:04:23,077 INFO spawned: 'sgw-gearman-worker-4' with pid 46
+2020-11-18 03:04:23,078 INFO spawned: 'sgw-gearman-worker-9' with pid 47
+2020-11-18 03:04:23,078 INFO exited: sgw-gearman-worker-6 (exit status 255; not expected)
+2020-11-18 03:04:23,079 INFO spawned: 'sgw-gearman-worker-6' with pid 48
+2020-11-18 03:04:23,627 INFO exited: sgw-gearman-worker-9 (exit status 255; not expected)
+2020-11-18 03:04:23,628 INFO exited: sgw-gearman-worker-6 (exit status 255; not expected)
+2020-11-18 03:04:23,648 INFO exited: sgw-gearman-worker-0 (exit status 1; not expected)
+2020-11-18 03:04:23,648 INFO exited: sgw-gearman-worker-2 (exit status 255; not expected)
+2020-11-18 03:04:23,648 INFO exited: sgw-gearman-worker-1 (exit status 255; not expected)
+2020-11-18 03:04:23,648 INFO exited: sgw-gearman-worker-8 (exit status 255; not expected)
+2020-11-18 03:04:23,649 INFO exited: sgw-gearman-worker-7 (exit status 1; not expected)
+2020-11-18 03:04:23,650 INFO exited: sgw-gearman-worker-5 (exit status 255; not expected)
+2020-11-18 03:04:23,650 INFO exited: sgw-gearman-worker-3 (exit status 255; not expected)
+2020-11-18 03:04:23,651 INFO exited: sgw-gearman-worker-4 (exit status 255; not expected)
+2020-11-18 03:04:24,653 INFO spawned: 'sgw-gearman-worker-7' with pid 49
+2020-11-18 03:04:24,655 INFO spawned: 'sgw-gearman-worker-6' with pid 50
+2020-11-18 03:04:24,656 INFO spawned: 'sgw-gearman-worker-5' with pid 51
+2020-11-18 03:04:24,657 INFO spawned: 'sgw-gearman-worker-4' with pid 52
+2020-11-18 03:04:24,658 INFO spawned: 'sgw-gearman-worker-3' with pid 53
+2020-11-18 03:04:24,660 INFO spawned: 'sgw-gearman-worker-2' with pid 54
+2020-11-18 03:04:24,661 INFO spawned: 'sgw-gearman-worker-1' with pid 55
+2020-11-18 03:04:24,663 INFO spawned: 'sgw-gearman-worker-0' with pid 56
+2020-11-18 03:04:24,664 INFO spawned: 'sgw-gearman-worker-9' with pid 57
+2020-11-18 03:04:24,665 INFO spawned: 'sgw-gearman-worker-8' with pid 58
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-18 03:04:25,794 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:19,324 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2020-11-23 02:03:19,327 INFO Included extra file "/etc/supervisor/conf.d/gearman.conf" during parsing
+2020-11-23 02:03:19,692 INFO RPC interface 'supervisor' initialized
+2020-11-23 02:03:19,692 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2020-11-23 02:03:19,693 INFO daemonizing the supervisord process
+2020-11-23 02:03:19,793 INFO supervisord started with pid 13
+2020-11-23 02:03:20,797 INFO spawned: 'sgw-gearman-worker-7' with pid 28
+2020-11-23 02:03:20,801 INFO spawned: 'sgw-gearman-worker-6' with pid 29
+2020-11-23 02:03:20,804 INFO spawned: 'sgw-gearman-worker-5' with pid 30
+2020-11-23 02:03:20,808 INFO spawned: 'sgw-gearman-worker-4' with pid 31
+2020-11-23 02:03:20,812 INFO spawned: 'sgw-gearman-worker-3' with pid 32
+2020-11-23 02:03:20,816 INFO spawned: 'sgw-gearman-worker-2' with pid 33
+2020-11-23 02:03:20,819 INFO spawned: 'sgw-gearman-worker-1' with pid 34
+2020-11-23 02:03:20,823 INFO spawned: 'sgw-gearman-worker-0' with pid 35
+2020-11-23 02:03:20,826 INFO spawned: 'sgw-gearman-worker-9' with pid 36
+2020-11-23 02:03:20,829 INFO spawned: 'sgw-gearman-worker-8' with pid 37
+2020-11-23 02:03:21,830 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:21,831 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:23,537 INFO exited: sgw-gearman-worker-4 (exit status 255; not expected)
+2020-11-23 02:03:23,539 INFO spawned: 'sgw-gearman-worker-4' with pid 38
+2020-11-23 02:03:23,539 INFO exited: sgw-gearman-worker-7 (exit status 255; not expected)
+2020-11-23 02:03:23,539 INFO exited: sgw-gearman-worker-6 (exit status 255; not expected)
+2020-11-23 02:03:23,539 INFO exited: sgw-gearman-worker-5 (exit status 255; not expected)
+2020-11-23 02:03:23,539 INFO exited: sgw-gearman-worker-3 (exit status 255; not expected)
+2020-11-23 02:03:23,539 INFO exited: sgw-gearman-worker-2 (exit status 255; not expected)
+2020-11-23 02:03:23,539 INFO exited: sgw-gearman-worker-1 (exit status 255; not expected)
+2020-11-23 02:03:23,539 INFO exited: sgw-gearman-worker-0 (exit status 255; not expected)
+2020-11-23 02:03:23,540 INFO exited: sgw-gearman-worker-9 (exit status 255; not expected)
+2020-11-23 02:03:23,540 INFO exited: sgw-gearman-worker-8 (exit status 255; not expected)
+2020-11-23 02:03:24,117 INFO spawned: 'sgw-gearman-worker-7' with pid 39
+2020-11-23 02:03:24,118 INFO spawned: 'sgw-gearman-worker-6' with pid 40
+2020-11-23 02:03:24,119 INFO spawned: 'sgw-gearman-worker-5' with pid 41
+2020-11-23 02:03:24,120 INFO spawned: 'sgw-gearman-worker-3' with pid 42
+2020-11-23 02:03:24,121 INFO spawned: 'sgw-gearman-worker-2' with pid 43
+2020-11-23 02:03:24,124 INFO spawned: 'sgw-gearman-worker-1' with pid 44
+2020-11-23 02:03:24,127 INFO spawned: 'sgw-gearman-worker-0' with pid 45
+2020-11-23 02:03:24,128 INFO spawned: 'sgw-gearman-worker-9' with pid 46
+2020-11-23 02:03:24,129 INFO spawned: 'sgw-gearman-worker-8' with pid 47
+2020-11-23 02:03:24,129 INFO exited: sgw-gearman-worker-4 (exit status 1; not expected)
+2020-11-23 02:03:25,263 INFO success: sgw-gearman-worker-7 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:25,263 INFO success: sgw-gearman-worker-6 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:25,263 INFO success: sgw-gearman-worker-5 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:25,264 INFO spawned: 'sgw-gearman-worker-4' with pid 48
+2020-11-23 02:03:25,264 INFO success: sgw-gearman-worker-3 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:25,264 INFO success: sgw-gearman-worker-2 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:25,264 INFO success: sgw-gearman-worker-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:25,264 INFO success: sgw-gearman-worker-0 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:25,264 INFO success: sgw-gearman-worker-9 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:25,264 INFO success: sgw-gearman-worker-8 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2020-11-23 02:03:26,316 INFO success: sgw-gearman-worker-4 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
