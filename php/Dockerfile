@@ -85,6 +85,7 @@ RUN sh -c "$(curl https://raw.githubusercontent.com/deluan/zsh-in-docker/master/
 RUN apt-get remove -y git 
 
 RUN echo 'run () {php -f /var/www/html/$1/app/Console/cake.php ${@:2}}' >> $HOME/.zshrc
+RUN echo 'clear_gearman () {supervisorctl "stop all" && gearadmin --drop $1 && supervisorctl "start all" }' >> $HOME/.zshrc
 
 FROM oh-my-zsh as other-dependency
 
@@ -102,7 +103,7 @@ RUN apt-get install -y -q libgmp-dev && docker-php-ext-install gmp
 RUN install-php-extensions yaml
 
 
-RUN echo "set-option -g default-shell zsh" > ~/.tmux.conf
+RUN echo "set-option -g default-shell $SHELL" > ~/.tmux.conf
 
 
 
