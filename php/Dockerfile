@@ -109,7 +109,9 @@ RUN echo "set-option -g default-shell $SHELL" > ~/.tmux.conf
 
 FROM other-dependency as entrypoint 
 
-COPY ./start.sh start.sh
+RUN echo -e "#!/bin/bash\nservice supervisor start\ngearmand -d\nphp-fpm" > start.sh
+
+RUN chmod a+x start.sh
 
 CMD [ "/var/www/html/start.sh" ]
 
