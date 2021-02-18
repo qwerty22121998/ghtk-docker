@@ -10,13 +10,13 @@ RUN apt-get install -qq -y \
   unzip \
   wget
 
-ADD https://raw.githubusercontent.com/mlocati/docker-php-extension-installer/master/install-php-extensions /usr/local/bin/
+ADD https://github.com/mlocati/docker-php-extension-installer/releases/latest/download/install-php-extensions /usr/local/bin/
 
 RUN chmod uga+x /usr/local/bin/install-php-extensions && sync
 
-RUN pecl install -f redis-3.1.5 && docker-php-ext-enable redis
+RUN install-php-extensions xdebug-2.9.8
 
-RUN pecl install xdebug && docker-php-ext-enable xdebug
+RUN install-php-extensions redis-3.1.5
 
 RUN install-php-extensions \
   bcmath \
@@ -32,14 +32,9 @@ RUN install-php-extensions \
   pdo_mysql \
   zip
 
-RUN docker-php-ext-install fileinfo pcntl
+RUN install-php-extensions fileinfo pcntl
 
-# RUN \
-#   curl 'http://pecl.php.net/get/redis-3.1.5.tgz' -o /tmp/redis-3.1.5.tgz  \
-#   && cd /tmp \
-#   && pecl install redis-3.1.5.tgz \
-#   && rm -rf redis-3.1.5.tgz \
-#   && docker-php-ext-enable redis
+# RUN docker-php-ext-install fileinfo pcntl
 
 FROM base-php as install-composer
 
@@ -52,22 +47,13 @@ FROM install-composer as install-gearman
 
 RUN apt-get update -q
 
-RUN apt-get -y --allow-unauthenticated install libgearman-dev
-
-RUN cd /tmp \
-  && git clone https://github.com/wcgallego/pecl-gearman.git \
-  && cd pecl-gearman \
-  && git checkout gearman-2.0.3 \
-  && phpize \
-  && ./configure \
-  && make -j$(nproc) \
-  && make install \
-  && rm -r /tmp/pecl-gearman \
-  && docker-php-ext-enable gearman
-
 RUN apt-get install -f -y  supervisor gearman-tools
 
+RUN apt-get -y --allow-unauthenticated install libgearman-dev 
+
 RUN apt-get install -y gearman-job-server 
+
+RUN install-php-extensions gearman-2.1.0
 
 FROM install-gearman as oh-my-zsh
 
@@ -85,6 +71,7 @@ RUN sh -c "$(curl https://raw.githubusercontent.com/deluan/zsh-in-docker/master/
 RUN apt-get remove -y git 
 
 RUN echo 'run () {php -f /var/www/html/$1/app/Console/cake.php ${@:2}}' >> $HOME/.zshrc
+RUN echo 'export PHP_IDE_CONFIG="serverName=Docker"' >> $HOME/.zshrc
 RUN echo 'clear_gearman () {supervisorctl "stop all" && gearadmin --drop $1 && supervisorctl "start all" }' >> $HOME/.zshrc
 
 FROM oh-my-zsh as other-dependency
@@ -98,7 +85,7 @@ RUN mkdir -p /usr/share/man/man1
 
 RUN apt-get install -y -q vim tmux default-jre
 
-RUN apt-get install -y -q libgmp-dev && docker-php-ext-install gmp
+RUN apt-get install -y -q libgmp-dev && install-php-extensions gmp
 
 RUN install-php-extensions yaml
 
